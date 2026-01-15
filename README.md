@@ -138,9 +138,9 @@ The script uses **interactive Jupyter widgets** for file upload and is intended 
 
 
 ## 5. Installation
-conda create -n ptne python=3.13 -y
-conda activate ptne
-pip install numpy scipy pandas matplotlib scikit-image pillow tifffile scikit-learn
+conda create -n ptne python=3.13 -y 
+conda activate ptne 
+pip install numpy scipy pandas matplotlib scikit-image pillow tifffile scikit-learn 
 
 For the optional EEG analysis only:
 pip install tensorflow keras ipywidgets
