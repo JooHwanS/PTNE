@@ -138,17 +138,18 @@ The script uses **interactive Jupyter widgets** for file upload and is intended 
 
 
 ## 5. Installation
-conda create -n ptne python=3.13 -y 
+- conda create -n ptne python=3.13 -y 
 
-conda activate ptne 
+- conda activate ptne 
 
-pip install numpy scipy pandas matplotlib scikit-image pillow tifffile scikit-learn 
+- pip install numpy scipy pandas matplotlib scikit-image pillow tifffile scikit-learn 
 
-For the optional EEG analysis only:
+- For the optional EEG analysis only:
 
-pip install tensorflow keras ipywidgets
+- pip install tensorflow keras ipywidgets
 
-Installation typically takes less than 5 minutes on a standard desktop computer.
+- Installation typically takes less than 5 minutes on a standard desktop computer.
+
 ---
 
 ## 6. How to Run
