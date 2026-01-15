@@ -1,4 +1,4 @@
-# PTNE – Analysis Code for Skin–Electrode Contact and EEG Window-Length Evaluation
+# PTNE – Analysis Code for Skin–Electrode Contact and EEG TCN Model Evaluation
 
 This repository provides executable **Jupyter Notebook / Python scripts** used to generate the quantitative analyses and figures reported in the manuscript:
 
