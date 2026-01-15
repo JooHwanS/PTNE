@@ -148,7 +148,7 @@ For the optional EEG analysis only:
 
 pip install tensorflow keras ipywidgets
 
-
+Installation typically takes less than 5 minutes on a standard desktop computer.
 ---
 
 ## 6. How to Run
