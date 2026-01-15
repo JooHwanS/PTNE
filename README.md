@@ -19,52 +19,9 @@ All analyses were developed and tested on a standard desktop computer.
 
 ---
 
-## 2. Repository Structure
+## 2. Core Analyses
 
-PTNE/
-│
-├─ Skin–Electrode Contact.py
-├─ Sweep_contact_strain.py
-├─ TCN_EEG_WindowSweep.py
-│
-├─ line_image/
-│ ├─ line1.tif
-│ ├─ line2.tif
-│ ├─ line3.tif
-│ └─ line4.tif
-│
-└─ nback_data
-├─ 1/
-│ ├─ 0back.txt
-│ ├─ 1back.txt
-│ ├─ 2back.txt
-│ ├─ 3back.txt
-│ └─ 4back.txt
-├─ 2/
-│ ├─ 0back.txt
-│ ├─ 1back.txt
-│ ├─ 2back.txt
-│ ├─ 3back.txt
-│ └─ 4back.txt
-├─ 3/
-│ ├─ 0back.txt
-│ ├─ 1back.txt
-│ ├─ 2back.txt
-│ ├─ 3back.txt
-│ └─ 4back.txt
-├─ 4/
-│ ├─ 0back.txt
-│ ├─ 1back.txt
-│ ├─ 2back.txt
-│ ├─ 3back.txt
-│ └─ 4back.txt
-
-
----
-
-## 3. Core Analyses
-
-### 3.1 Skin–Electrode Contact Analysis
+### 2.1 Skin–Electrode Contact Analysis
 
 **File**  
 `Skin–Electrode Contact.py`
@@ -89,7 +46,7 @@ Outputs are written to a newly created directory (e.g. `out_follow_jupyter_gap/`
 
 ---
 
-### 3.2 Contact Ratio vs. Strain Sweep (Material-wise)
+### 2.2 Contact Ratio vs. Strain Sweep (Material-wise)
 
 **File**  
 `Sweep_contact_strain.py`
@@ -114,7 +71,7 @@ Outputs are written to the `out_sweep3/` directory.
 
 ---
 
-## 4. Optional Analysis: EEG Window-Length Sweep with TCN
+## 3. Optional Analysis: EEG Window-Length Sweep with TCN
 
 **File**  
 `TCN_EEG_WindowSweep.py`
@@ -137,7 +94,7 @@ The script uses **interactive Jupyter widgets** for file upload and is intended 
 
 
 
-## 5. Installation
+## 4. Installation
 - conda create -n ptne python=3.13 -y 
 
 - conda activate ptne 
@@ -152,7 +109,7 @@ The script uses **interactive Jupyter widgets** for file upload and is intended 
 
 ---
 
-## 6. How to Run
+## 5. How to Run
 
 Launch Jupyter Notebook:
 jupyter notebook
@@ -166,7 +123,7 @@ All scripts are executed sequentially within the Jupyter environment.
 
 ---
 
-## 7. Expected Runtime
+## 6. Expected Runtime
 
 - Skin–electrode contact analysis: typically less than 1 minute  
 - Material-wise sweep: a few minutes depending on parameter ranges  
